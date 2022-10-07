@@ -154,6 +154,7 @@ fun TxtInput() {
                 val totalAmount = amount + tipPercentage
                 val amountPerPerson = totalAmount / people
                 val tipPerPerson = tipPercentage / people
+                Text(text = "Total Amount:: $totalAmount", fontSize=30.sp, color = black1)
                 Text(text = "Amount per person: $amountPerPerson", fontSize=30.sp, color = black1)
                 Text(text = "Total tips: $tipPercentage", fontSize=30.sp, color = black1)
                 Text(text = "Tips per person: $tipPerPerson", fontSize=30.sp, color = black1)
